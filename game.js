@@ -47,17 +47,112 @@ alert("Welcome to the Sinnoh region! An adventure awaits");
 													      	var chimName = prompt("Prof. Rowan: Would you like to name Chimchar?");
 													      					 if (chimName == "yes") {
 													      					 	chimName = prompt("What is his name?");
+													      					 	alert(chimName + " " + "has joined your team!");
 													      					 }
-													      }
-				} 					else if (starter == "Turtwig") {
-												var turCheck = prompt("Is Turtwig ok?");
-																 if (turCheck == "yes") {
-														 			var turName = prompt("Prof. Rowan: Would you like to name Turtwig?");
-														 							if (turName == "yes") {
-														 								chimName = prompt("What is his name?");
+													    } else if (chimCheck == "no") {
+													    	var starter = prompt("Prof. Rowan: Who do you want to take on your journey? You can only take 1! (Type Chimchar, Turtwig or Piplup)");
+													    					if (starter == "Chimchar") {
+													      						var chimName = prompt("Prof. Rowan: Would you like to name Chimchar?");
+													      					if (chimName == "yes") {
+													      					 	chimName = prompt("What is his name?");
+													      					 	alert(chimName + " " + "has joined your team!");
+													    }
+													}	else if (starter == "Turtwig") {
+															var turCheck = prompt("Is Turtwig ok?");
+																			 if (turCheck == "yes") {
+														 						var turName = prompt("Prof. Rowan: Would you like to name Turtwig?");
+														 										if (turName == "yes") {
+														 											turName = prompt("What is his name?");
+														 											alert(turName + " " + "has joined your team!");
 														 					}
 														 }
-									}
+														} else if (starter == "Piplup") {
+															var pipCheck = prompt("Is Piplup ok?");
+																			 if (pipCheck == "yes") {
+																				var pipName = prompt("Prof. Rowan: Would you like to name Piplup?");
+																								if (pipName == "yes") {
+																								 	pipName = prompt("What is his name?");
+																								 	alert(pipName + " " + "has joined your team!");
+																								 					}
+																								 }
+																			}
+												        } 
+
+				  } else if (starter == "Turtwig") {
+										var turCheck = prompt("Is Turtwig ok?");
+													      if (turCheck == "yes") {
+													      	var turName = prompt("Prof. Rowan: Would you like to name Turtwig?");
+													      					 if (turName == "yes") {
+													      					 	turName = prompt("What is his name?");
+													      					 	alert(turName + " " + "has joined your team!");
+													      					 }
+													    } else if (turCheck == "no") {
+													    	var starter = prompt("Prof. Rowan: Who do you want to take on your journey? You can only take 1! (Type Chimchar, Turtwig or Piplup)");
+													    					if (starter == "Chimchar") {
+													      						var chimName = prompt("Prof. Rowan: Would you like to name Chimchar?");
+													      					if (chimName == "yes") {
+													      					 	chimName = prompt("What is his name?");
+													      					 	alert(chimName + " " + "has joined your team!");
+													    }
+													}	else if (starter == "Turtwig") {
+															var turCheck = prompt("Is Turtwig ok?");
+																			 if (turCheck == "yes") {
+														 						var turName = prompt("Prof. Rowan: Would you like to name Turtwig?");
+														 										if (turName == "yes") {
+														 											turName = prompt("What is his name?");
+														 											alert(turName + " " + "has joined your team!");
+														 					}
+														 }
+														} else if (starter == "Piplup") {
+															var pipCheck = prompt("Is Piplup ok?");
+																			 if (pipCheck == "yes") {
+																				var pipName = prompt("Prof. Rowan: Would you like to name Piplup?");
+																								if (pipName == "yes") {
+																								 	pipName = prompt("What is his name?");
+																								 	alert(pipName + " " + "has joined your team!");
+																								 					}
+																								 }
+																			}
+												        } 
+
+				  }	else if (starter == "Piplup") {
+										var pipCheck = prompt("Is Piplup ok?");
+													      if (pipCheck == "yes") {
+													      	var pipName = prompt("Prof. Rowan: Would you like to name Piplup?");
+													      					 if (pipName == "yes") {
+													      					 	pipName = prompt("What is his name?");
+													      					 	alert(pipName + " " + "has joined your team!");
+													      					 }
+													    } else if (pipCheck == "no") {
+													    	var starter = prompt("Prof. Rowan: Who do you want to take on your journey? You can only take 1! (Type Chimchar, Turtwig or Piplup)");
+													    					if (starter == "Chimchar") {
+													      						var chimName = prompt("Prof. Rowan: Would you like to name Chimchar?");
+													      					if (chimName == "yes") {
+													      					 	chimName = prompt("What is his name?");
+													      					 	alert(chimName + " " + "has joined your team!");
+													    }
+													}	else if (starter == "Turtwig") {
+															var turCheck = prompt("Is Turtwig ok?");
+																			 if (turCheck == "yes") {
+														 						var turName = prompt("Prof. Rowan: Would you like to name Turtwig?");
+														 										if (turName == "yes") {
+														 											turName = prompt("What is his name?");
+														 											alert(turName + " " + "has joined your team!");
+														 					}
+														 }
+														} else if (starter == "Piplup") {
+															var pipCheck = prompt("Is Piplup ok?");
+																			 if (pipCheck == "yes") {
+																				var pipName = prompt("Prof. Rowan: Would you like to name Piplup?");
+																								if (pipName == "yes") {
+																								 	pipName = prompt("What is his name?");
+																								 	alert(pipName + " " + "has joined your team!");
+																								 					}
+																								 }
+																			}
+												        } 
+
+				}
 
   		},800) 					
 								
