@@ -1,0 +1,23 @@
+.chim {
+	float: left;
+	margin-right: 1500px;
+}
+
+h2 {
+	margin-top: 150px;
+}
+
+.turd {
+	float: left;
+	max-width: 10%;
+	height: auto;
+	margin-left: 25px;
+}
+
+.pip {
+	float: left;
+	max-width: 6%;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
