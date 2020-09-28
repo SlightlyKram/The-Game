@@ -59,7 +59,25 @@ alert("Welcome to the Sinnoh region! An adventure awaits");
 													      					 				  								alert(bud + " " + "has joined the party!");
 													      					 				  		}
 													      					 				  	
-													      					 			       } else if (ball == "no") {
+													      				   } else if (chimName == "no") {
+													      				   			 alert("Chimchar has joined your team!");
+													      					 		 alert("As you walk into the tall grass on your way to the next city, you get ambushed!");
+													      					 		 alert("A Budew appears!");
+													      					 		 alert(name + " " + "sends out Chimchar!");
+													      					 		 var ball = prompt("Would you like to catch the Budew?");
+													      					 				      if (ball == "yes") {
+													      					 				  		 alert(name + " " + "throws a pokeball at opposing Budew!");
+													      					 				  		 alert(name + " " + "caught the Budew!");
+													      					 				  		 var nickname = prompt("Would you like to give Budew a nickname?");
+													      					 				  						  if (nickname == "yes") {
+													      					 				  						  	  var bud = prompt("What should the name be?");
+													      					 				  							  alert(bud + " " + "has joined the party!");
+													      					 				  		}
+													      					 				  	
+													      				   }
+													      				   }
+
+													      					 			  	   } else if (ball == "no") {
 													      					 							 alert(chimName + " " + "scratches the hell out of the Budew!");
 													      					 							 alert("Opposing Budew fainted!" + " " + chimName + " " + "gained exp!");
 													      					 							 alert("You feel a surge of confidence overwhelm you!");
@@ -111,8 +129,7 @@ alert("Welcome to the Sinnoh region! An adventure awaits");
 													    }
 
 													      					 							 								 } 
-													      					 }
-													    } else if (chimCheck == "no") {
+													      					 } else if (chimCheck == "no") {
 													    	var starter = prompt("Prof. Rowan: Who do you want to take on your journey? You can only take 1! (Type Chimchar, Turtwig or Piplup)");
 													    					if (starter == "Chimchar") {
 													      						var chimName = prompt("Prof. Rowan: Would you like to name Chimchar?");
