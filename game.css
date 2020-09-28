@@ -1,6 +1,8 @@
 .chim {
 	float: left;
 	margin-right: 1500px;
+	max-width: 15%;
+	height: auto;
 }
 
 h2 {
